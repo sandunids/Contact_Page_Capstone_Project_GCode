@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Navbar starts here-->
+    <header>
+        <img class="logo" src="Images2/CharityWater_logo.png" alt="charity water logo">
+        <nav class="navbar">
+            <ul class="">
+                <li><a class="navbar-1" href="#">About</a></li>
+                <li><a class="navbar-1" href="#">Donate</a></li>
+                <li><a class="navbar-1" href="#">Contact us</a></li>
+              </ul>
+        </nav>
+    </header>
+    <!-- Navbar ends here-->
+    
+   <!--Contact Section Starts Here--> 
+   <div class="main-div">
+     <div class="contact-head">
+        <h1>Contact Us</h1>
+    </div>
+    <div class="description">
+        <p>We'd love to hear from you.</p>
+    </div>
+    <div class="contact-methods">
+        <div class="contact-icons">
+            <img src="Images2/icon_phone.png" alt="image of a phone">
+            <p>Call Us<br>Tel: (646)-688-2323</p>
+        </div>
+        <div class="contact-icons">
+            <img src="Images2/icon_email.png" alt="image of a email icon ">
+            <p><br>Email Us<br>charityfakeemail@gmail.com</p>
+        </div>
+    </div>
+    </div>
+    <!--Contact Section Ends Here--> 
+
+    <!--Message Form Starts Here-->
+    <div class="container">
+        <form>
+            <h3>Send Us A Message</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <input type="text" id="phone" placeholder="Phone#" required>
+           <textarea id="Message" rows="4" placeholder="Message"></textarea>
+           <button type="submit">Send</button>
+        </form>
+    </div>
+    <!--CMessage Form Ends Here--> 
+
+    <!--Footer Section Starts Here-->
+    <footer>
+      <div class="footer">
+        <div class="footer-container">
+         <div class="footer-heading">
+            
+            <img class="footer-heading-logo" src="Images2/CharityWater_logo.png" alt="charity water logo">
+            
+            <div class="footer-heading-sub">
+                <h2>Get To Know Us</h2> 
+                <a href="https://www.charitywater.org/about" target="_blank">About Us</a> 
+                <a href="https://www.charitywater.org/global-water-crisis" target="_blank">What we do</a> 
+                <a href="https://www.charitywater.org/about/financials" target="_blank">Financials & annual reports</a>
+                <a href="https://www.charitywater.org/our-work" target="_blank">Our work</a>
+            </div>
+   
+            <div class="footer-heading-sub">
+                <h2>Connect</h2> 
+                <a href="https://www.charitywater.org/contact" target="_blank">Contact us</a> 
+                <a href="https://www.charitywater.org/about/jobs" target="_blank">Careers</a> 
+                <a href="https://support.charitywater.org/hc/en-us" target="_blank">Help center</a>
+                <a href="https://store.charitywater.org" target="_blank">Shop our store</a>
+            </div>
+   
+            <div class="footer-heading-sub">
+                <h2>Social Media</h2> 
+                <a href="https://www.instagram.com/charitywater/" target="_blank">Instagram</a> 
+                <a href="https://www.facebook.com/charitywater/" target="_blank">Facebook</a> 
+                <a href="https://twitter.com/charitywater?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Twitter</a>
+                <a href="https://www.youtube.com/@charitywater" target="_blank">Youtube</a>
+            </div>
+         </div>
+
+         <div class="footer-email">
+            <div class="footer-email-sub">
+                <label id="email-label">Sign Up For Our Emails</label>
+                <input type="email" spellcheck="false" id="email-field" onkeyup="validateEmail()">
+                <span id="email-error"></span> 
+            </div>
+         </div>
+         </div> 
+     </div>
+    </footer>
+    <!--Footer Section Ends Here-->
+
+</body>
+</html>
